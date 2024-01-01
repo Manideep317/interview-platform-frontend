@@ -7,7 +7,7 @@ export function Dashboard() {
     return (
         <>
             <Navbar/>
-            
+            <Company/>
         </>
     )
 }

@@ -7,6 +7,7 @@ import { Landingpage } from './pages/Landingpage'
 import { Login } from './pages/Login'
 import { Signup } from './pages/Singup'
 import { Dashboard } from './pages/Dashboard'
+import { Questions } from './components/Dbcomponents/Questions'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route element={<Login/>} path='/login'/>
           <Route element={<Signup/>} path='/signup'/>
           <Route element={<Dashboard/>} path='/dashboard'/>
+          <Route element={<Questions/>} path='/questions'/>
         </Routes>
       </Router>
     </>
